@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title> Hugo-官方文档 - Chtholist&#39;s warehouse</title><meta name="Description" content=""><meta property="og:title" content=" Hugo-官方文档" />
+<meta property="og:description" content="教程1 命令 ❗在site主目录下跑命令行 hugo new site [NAME] —— 创建新的网站 hugo new posts/first_post.md —— 创建新文章 ⚠注意创建在哪个子目录下 hugo server 跑本地服务器，可以实时更新 重定" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chtholist.gitee.io/hugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-10T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-07-10T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=" Hugo-官方文档"/>
+<meta name="twitter:description" content="教程1 命令 ❗在site主目录下跑命令行 hugo new site [NAME] —— 创建新的网站 hugo new posts/first_post.md —— 创建新文章 ⚠注意创建在哪个子目录下 hugo server 跑本地服务器，可以实时更新 重定"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chtholist.gitee.io/hugo/" /><link rel="prev" href="https://chtholist.gitee.io/%E5%A5%87%E8%9B%8B%E7%89%A9%E8%AF%AD/" /><link rel="next" href="https://chtholist.gitee.io/%E6%91%98%E5%BD%953/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": " Hugo-官方文档",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chtholist.gitee.io\/hugo\/"
+        },"genre": "posts","keywords": "技术, 博客, Hugo","wordcount":  1035 ,
+        "url": "https:\/\/chtholist.gitee.io\/hugo\/","datePublished": "2021-07-10T00:00:00+00:00","dateModified": "2021-07-10T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "chtholist","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/chtholist.gitee.io\/images\/first.png",
+                    "width":  720 ,
+                    "height":  720 
+                }},"author": {
+                "@type": "Person",
+                "name": "chtholist"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Chtholist&#39;s warehouse"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="images/first.png"
+        data-srcset="/images/first.png, images/first.png 1.5x, /images/first.png 2x"
+        data-sizes="auto"
+        alt="/images/first.png"
+        title="/images/first.png" />Chtholist</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Chtholist&#39;s warehouse"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="images/first.png"
+        data-srcset="/images/first.png, images/first.png 1.5x, /images/first.png 2x"
+        data-sizes="auto"
+        alt="/images/first.png"
+        title="/images/first.png" />Chtholist</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX"> Hugo-官方文档</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>chtholist</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-10">2021-07-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1035 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#命令">命令</a></li>
+        <li><a href="#目录结构">目录结构</a>
+          <ul>
+            <li><a href="#archetypes">archetypes</a></li>
+            <li><a href="#content">content</a></li>
+            <li><a href="#assets">assets</a></li>
+            <li><a href="#config">config</a></li>
+            <li><a href="#data">data</a></li>
+            <li><a href="#layouts">layouts</a></li>
+            <li><a href="#static">static</a></li>
+          </ul>
+        </li>
+        <li><a href="#后记">后记</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><a href="https://hugo.aiaide.com/" target="_blank" rel="noopener noreffer">教程1</a></p>
+<h3 id="命令">命令</h3>
+<p><strong>❗在site主目录下跑命令行</strong></p>
+<ul>
+<li>
+<p><code>hugo new site [NAME]</code> —— 创建新的网站</p>
+</li>
+<li>
+<p><code>hugo new posts/first_post.md</code> —— 创建新文章</p>
+<p>⚠注意创建在哪个子目录下</p>
+</li>
+<li>
+<p><code>hugo server</code></p>
+<p>跑本地服务器，可以实时更新</p>
+<ul>
+<li>
+<p>重定向到刚修改的页面</p>
+<p><code>--navigateToChanged</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>hugo</code></p>
+<p>生成到 <code>public/</code> dir ，可以发布了</p>
+</li>
+</ul>
+<p>安装皮肤：</p>
+<p>在 <code>themes</code> 目录（可能要新建）里把皮肤 <code>git clone</code> 下来</p>
+<p>发布：</p>
+<ol>
+<li><code>hugo</code>，所有静态页面都会生成到 <code>public</code> 目录</li>
+<li>将pubilc目录里所有文件 <code>push</code> 到Github</li>
+</ol>
+<hr>
+<p>Hugo不会发布有此情况的页面（front matter中），可以使用参数更改</p>
+<table>
+<thead>
+<tr>
+<th>not publish</th>
+<th>命令行参数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>未来发布日期</td>
+<td><code>--buildFuture</code></td>
+</tr>
+<tr>
+<td>draft: true</td>
+<td><code>--buildDrafts</code></td>
+</tr>
+<tr>
+<td>past expirydate value</td>
+<td><code>--buildExpired</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="目录结构">目录结构</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">example/
+├── archetypes/
+│   └── default.md
+├── assets/
+├── content/
+├── data/
+├── layouts/
+├── public/
+├── static/
+├── themes/
+└── config.toml
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="archetypes">archetypes</h4>
+<p>新建内容的模板
+运行<code>hugo new</code>时，使用模板/archetypes/default.md</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nn">---</span><span class="w">
+</span><span class="w"></span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;{{ replace .Name &#34;</span>-<span class="s2">&#34; &#34;</span><span class="w"> </span><span class="s2">&#34; | title }}&#34;</span><span class="w">
+</span><span class="w"></span><span class="nt">date</span><span class="p">:</span><span class="w"> </span>{{<span class="w"> </span><span class="l">.Date }}</span><span class="w">
+</span><span class="w"></span><span class="nt">draft</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w"></span><span class="nt">lightgallery</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w"></span><span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;Chtholist&#34;</span><span class="w">
+</span><span class="w"></span><span class="nt">tags</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
+</span><span class="w"></span><span class="l">categories:[]</span><span class="w">
+</span><span class="w"></span><span class="l">featuredImagePreview:&#34;&#34;</span><span class="w">
+</span><span class="w"></span><span class="nn">---</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>可以再创建子模板文件夹</p>
+<p><code>hugo new --kind [目录名] posts/my-post</code></p>
+<p>在/content/posts/my-post里按照以下的模板来新建文件夹</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">archetypes
+├── default.md
+└── post-bundle
+    ├── bio.md
+    ├── images
+    │   └── featured.jpg
+    └── index.md
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<h4 id="content">content</h4>
+<p>网站的所有内容都在这个目录中</p>
+<p>遵循以下目录树</p>
+<ul>
+<li>注意：markdown只能放在最小子目录中，图片、pdf等每级目录都可放</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">content/
+├── about
+│   ├── index.md
+├── posts
+│   ├── my-post
+│   │   ├── content1.md
+│   │   ├── content2.md
+│   │   ├── image1.jpg
+│   │   ├── image2.png
+│   │   └── index.md
+│   └── my-other-post
+│       └── index.md
+│
+└── another-section
+    ├── ..
+    └── not-a-leaf-bundle
+        ├── ..
+        └── another-leaf-bundle
+            └── index.md
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>可以先用命令，在archetypes中创建某个目录的模板</li>
+</ul>
+<h4 id="assets">assets</h4>
+<ul>
+<li>/assets 存储着所有需要用<a href="https://gohugo.io/hugo-pipes/introduction/" target="_blank" rel="noopener noreffer">Hugo Pipes</a>渲染的文件，比如图片、音乐</li>
+<li>只有<code>.Permalink</code> or <code>.RelPermalink</code> 会被公开发布</li>
+</ul>
+<h4 id="config">config</h4>
+<p>Hugo的配置指令以Json、YAML或TOML存储</p>
+<p>每个根设置对象都可以作为自己的文件，并根据环境进行结构化</p>
+<p>最简单的设置是，直接放在根目录的<code>config.toml</code>  （复杂的设置才用config文件夹）</p>
+<h4 id="data">data</h4>
+<p>store configuration files that can be used by Hugo when generating your website.</p>
+<p>The files must be YAML, JSON, TOML</p>
+<p>（一般没用？）</p>
+<h4 id="layouts">layouts</h4>
+<p>存储生成静态网页<code>.html</code>的模板</p>
+<p>Templates include <a href="https://gohugo.io/templates/list/" target="_blank" rel="noopener noreffer">list pages</a>, your <a href="https://gohugo.io/templates/homepage/" target="_blank" rel="noopener noreffer">homepage</a>, <a href="https://gohugo.io/templates/taxonomy-templates/" target="_blank" rel="noopener noreffer">taxonomy templates</a>, <a href="https://gohugo.io/templates/partials/" target="_blank" rel="noopener noreffer">partials</a>, <a href="https://gohugo.io/templates/single-page-templates/" target="_blank" rel="noopener noreffer">single page templates</a>, and more.</p>
+<h4 id="static">static</h4>
+<p>存储所有的静态内容： images, CSS, JavaScript, etc. When Hugo builds your site</p>
+<p>（一般没用？）</p>
+<h3 id="后记">后记</h3>
+<p>2021-1-7</p>
+<p>现在回去看之前写的hugo、git等笔记，看的很痛苦。一来当时写笔记时直接用英文写，二来是记了很多东西，很乱，不少知识都是底层的，我一时半会儿碰不到更用不了的。得到的教训就是不要好高骛远，别高估自己，整的那么难那么复杂给自己设门槛，到头来自己都看不懂自己做的笔记，那就违背初衷了，纯粹是为了学而学。做笔记就应该像这Markdown一样，简洁美观且实用。</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-07-10</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/hugo/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%8A%80%E6%9C%AF/">技术</a>,&nbsp;<a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>,&nbsp;<a href="/tags/hugo/">Hugo</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/%E5%A5%87%E8%9B%8B%E7%89%A9%E8%AF%AD/" class="prev" rel="prev" title="奇蛋物语"><i class="fas fa-angle-left fa-fw"></i>奇蛋物语</a>
+            <a href="/%E6%91%98%E5%BD%953/" class="next" rel="next" title="摘录【3】">摘录【3】<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">What do you do at the end of the world?</div><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.81.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">chtholist</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"},"twemoji":true};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
