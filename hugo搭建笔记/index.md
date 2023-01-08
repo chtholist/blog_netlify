@@ -204,6 +204,34 @@ The files must be YAML, JSON, TOML
 
 
 
+### 部署
+
+流程：
+
+1. 在网站目录下`Hugo`生成静态页面（存储在public中）
+2. 在public中执行git
+   1. `git add .`
+   2. `git commit -m "xxx"`
+   3. `git push --set-upstream origin master`
+3. 之后Netlify会自动更新
+
+自动化脚本：在网站目录下打开git bash，执行`./deploy.sh`
+
+```sh
+#!/bin/bash
+
+hugo
+cd public
+git add .
+git commit -m "`date`"
+git push --set-upstream origin master
+
+if [ $? -ne 0 ]; then
+  echo "There was an error while pushing to the repository. The script will now pause."
+  read -p "Press any key to continue."
+fi
+```
+
 
 
 

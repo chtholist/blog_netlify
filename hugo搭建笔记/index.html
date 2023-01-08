@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/chtholist.netlify.app\/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0\/"
-        },"genre": "posts","keywords": "博客","wordcount":  1175 ,
+        },"genre": "posts","keywords": "博客","wordcount":  1340 ,
         "url": "https:\/\/chtholist.netlify.app\/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0\/","datePublished": "2023-01-08T00:00:00+00:00","dateModified": "2023-01-08T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "chtholist","logo": "https:\/\/chtholist.netlify.app\/images\/first.png"},"author": {
@@ -125,7 +125,7 @@
             <div class="post-meta-line">
                 <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://chtholist.netlify.app" title="Author" target="_blank" rel="noopener noreferrer author" class="author">chtholist</a>
                 </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-01-08">2023-01-08</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-01-08">2023-01-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1175 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-01-08">2023-01-08</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-01-08">2023-01-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1340 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="true">
                 <div class="details-summary toc-title">
@@ -148,6 +148,7 @@
             <li><a href="#static">static</a></li>
           </ul>
         </li>
+        <li><a href="#部署">部署</a></li>
       </ul>
     </li>
     <li><a href="#后记">后记</a></li>
@@ -368,7 +369,51 @@
 <h4 id="static" class="headerLink">
     <a href="#static" class="header-mark"></a>static</h4><p>存储所有的静态内容： images, CSS, JavaScript, etc. When Hugo builds your site</p>
 <p>（一般没用？）</p>
-<h2 id="后记" class="headerLink">
+<h3 id="部署" class="headerLink">
+    <a href="#%e9%83%a8%e7%bd%b2" class="header-mark"></a>部署</h3><p>流程：</p>
+<ol>
+<li>在网站目录下<code>Hugo</code>生成静态页面（存储在public中）</li>
+<li>在public中执行git
+<ol>
+<li><code>git add .</code></li>
+<li><code>git commit -m &quot;xxx&quot;</code></li>
+<li><code>git push --set-upstream origin master</code></li>
+</ol>
+</li>
+<li>之后Netlify会自动更新</li>
+</ol>
+<p>自动化脚本：在网站目录下打开git bash，执行<code>./deploy.sh</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;`date`&#34;</span>
+</span></span><span class="line"><span class="cl">git push --set-upstream origin master
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$?</span> -ne <span class="m">0</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">echo</span> <span class="s2">&#34;There was an error while pushing to the repository. The script will now pause.&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">read</span> -p <span class="s2">&#34;Press any key to continue.&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="后记" class="headerLink">
     <a href="#%e5%90%8e%e8%ae%b0" class="header-mark"></a>后记</h2><p>2021-1-7</p>
 <p>现在回去看之前写的hugo、git等笔记，看的很痛苦。一来当时写笔记时直接用英文写，二来是记了很多东西，很乱，不少知识都是底层的，我一时半会儿碰不到更用不了的。得到的教训就是不要好高骛远，别高估自己，整的那么难那么复杂给自己设门槛，到头来自己都看不懂自己做的笔记，那就违背初衷了，纯粹是为了学而学。做笔记就应该像这Markdown一样，简洁美观且实用。</p>
 <p>从下午忙活到晚上，终于搞定了Hugo+Netlify，最耗时的一个是Git，从头配置了一遍，另一个是Hugo和LoveIt，也算是重头来过，把笔记文档重新写了一遍。</p>
