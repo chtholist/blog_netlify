@@ -4,15 +4,36 @@
         <link>https://chtholist.netlify.app/posts/</link>
         <description>所有文章 | Chtholist&#39;s warehouse</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (chtholist)</managingEditor>
-            <webMaster>chtholist@gmail.com (chtholist)</webMaster><lastBuildDate>Sat, 07 Jan 2023 21:53:22 &#43;0800</lastBuildDate><atom:link href="https://chtholist.netlify.app/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>原神2022年度摄影</title>
+            <webMaster>chtholist@gmail.com (chtholist)</webMaster><lastBuildDate>Sun, 08 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/posts/" rel="self" type="application/rss+xml" /><item>
+    <title> Hugo&amp;Netlify 搭建笔记</title>
+    <link>https://chtholist.netlify.app/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Sun, 08 Jan 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>chtholist</name>
+    </author><guid>https://chtholist.netlify.app/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[Hugo教程1 命令❗在site主目录下跑命令行 hugo new site [NAME] —— 创建新的网站 hugo new posts/first_post.md —— 创建新文章 ⚠注意创建在哪个子目录下 hugo server 跑本地服务器，可以实时]]></description>
+</item><item>
+    <title> 【Hugo】DoIt主题</title>
+    <link>https://chtholist.netlify.app/hugodoit%E4%B8%BB%E9%A2%98/</link>
+    <pubDate>Sun, 08 Jan 2023 07:49:39 &#43;0800</pubDate><author>
+        <name>chtholist</name>
+    </author><guid>https://chtholist.netlify.app/hugodoit%E4%B8%BB%E9%A2%98/</guid>
+    <description><![CDATA[前言2021.3.18 第三代个人博客。之前折腾了Gridea，用了好几个主题，魔改移植了live2d/点击特效等一堆花里胡哨的。现在……Hu]]></description>
+</item><item>
+    <title>原摄2022年度总结</title>
     <link>https://chtholist.netlify.app/%E5%8E%9F%E7%A5%9E2022%E5%B9%B4%E5%BA%A6%E6%91%84%E5%BD%B1/</link>
     <pubDate>Sat, 07 Jan 2023 21:53:22 &#43;0800</pubDate><author>
         <name>Chtholist</name>
     </author><guid>https://chtholist.netlify.app/%E5%8E%9F%E7%A5%9E2022%E5%B9%B4%E5%BA%A6%E6%91%84%E5%BD%B1/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="https://s2.loli.net/2023/01/07/ZX6Mqt231PSkWJx.jpg" referrerpolicy="no-referrer">
-            </div>序 本意无心费神，但既然修缮博客，也顺便把这年度总结写了，再怎么样也要写上句号。 妮露，好美，第一次尝试倾斜着拍 第一次使用枫丹科技，比在MC开创]]></description>
+            </div>序 本意无心费神，但既然修缮博客，也顺便把这年度总结写了，再怎么样也要写上句号。 梦之启程梦开始的地方：初见安柏，第一次按下了截图键 巨渊之外巨渊]]></description>
+</item><item>
+    <title>Git 初学笔记</title>
+    <link>https://chtholist.netlify.app/git-%E5%88%9D%E5%AD%A6/</link>
+    <pubDate>Sat, 07 Jan 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>chtholist</name>
+    </author><guid>https://chtholist.netlify.app/git-%E5%88%9D%E5%AD%A6/</guid>
+    <description><![CDATA[Git最先进的分布式版本控制系统，底层是c语言 git在本地保存着完整的历史版本，可以脱机查看开发的历史版本 连接到GitHub 本地Git仓库和]]></description>
 </item><item>
     <title>摘录·其三</title>
     <link>https://chtholist.netlify.app/%E6%91%98%E5%BD%953/</link>
@@ -23,12 +44,12 @@
                 <img src="https://i.loli.net/2021/08/14/uBIrgRHneDP8VFA.jpg" referrerpolicy="no-referrer">
             </div>摘录特别篇（七夕） 来自高中同桌曾经分享过的一篇文章，宝藏也（既指人也指文） 既可由此观众生，亦可执此自醉 数月前初读，今日特殊，忆起，收录 文学里]]></description>
 </item><item>
-    <title> Hugo&amp;Netlify 搭建笔记</title>
-    <link>https://chtholist.netlify.app/hugo/</link>
-    <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</pubDate><author>
+    <title>博客&amp;直播这档事</title>
+    <link>https://chtholist.netlify.app/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</link>
+    <pubDate>Fri, 13 Aug 2021 00:00:00 &#43;0000</pubDate><author>
         <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/hugo/</guid>
-    <description><![CDATA[Hugo教程1 命令❗在site主目录下跑命令行 hugo new site [NAME] —— 创建新的网站 hugo new posts/first_post.md —— 创建新文章 ⚠注意创建在哪个子目录下 hugo server 跑本地服务器，可以实时]]></description>
+    </author><guid>https://chtholist.netlify.app/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</guid>
+    <description><![CDATA[well, it&rsquo;s quite a long and tough story. 不识天坑真面目，只因身在此坑中 2020.2，刚“加入”不洗碗工作室，学了异常方便的markdown后，就在万恶之源洛谷看到一]]></description>
 </item><item>
     <title>奇蛋物语</title>
     <link>https://chtholist.netlify.app/%E5%A5%87%E8%9B%8B%E7%89%A9%E8%AF%AD/</link>
@@ -63,30 +84,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://i.loli.net/2021/03/18/3fxIvSZcqMNFTKL.jpg" referrerpolicy="no-referrer">
             </div>前言许久未曾读书，甚久未曾摘录…… 总是要开始的…… 若是能添点书评更好…… 三联生活周刊2020.51期 方言李敬泽：现代化进程有它的复杂性。语言]]></description>
-</item><item>
-    <title>浅论Always in My Heart</title>
-    <link>https://chtholist.netlify.app/%E6%B5%85%E8%AE%BAalways-in-my-heart/</link>
-    <pubDate>Thu, 18 Mar 2021 16:22:39 &#43;0800</pubDate><author>
-        <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/%E6%B5%85%E8%AE%BAalways-in-my-heart/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/chtholly3.png" referrerpolicy="no-referrer">
-            </div>浅论《Alwaysinmyheart》在末日三问中的作用 这个行将终末的世界是无法被拯救的，它的开头和结尾已经写好了，彻头彻尾的悲剧。 他的命运]]></description>
-</item><item>
-    <title>浅析斯卡布罗集市</title>
-    <link>https://chtholist.netlify.app/%E6%B5%85%E6%9E%90%E6%96%AF%E5%8D%A1%E5%B8%83%E7%BD%97%E9%9B%86%E5%B8%82/</link>
-    <pubDate>Thu, 18 Mar 2021 16:03:25 &#43;0800</pubDate><author>
-        <name>珂学家</name>
-    </author><guid>https://chtholist.netlify.app/%E6%B5%85%E6%9E%90%E6%96%AF%E5%8D%A1%E5%B8%83%E7%BD%97%E9%9B%86%E5%B8%82/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/chtholly2.png" referrerpolicy="no-referrer">
-            </div>浅析斯卡布罗集市 Scarborough Fair - 山田タマル (やまだ たまる) Lyrics by：イングランド民謡 Composed by：イングランド民謡 Arranged by：加藤達也 Are you going to Scarborough fair Parsley sage rosemary and thyme Remember me to]]></description>
-</item><item>
-    <title> 【Hugo】DoIt主题</title>
-    <link>https://chtholist.netlify.app/hugoloveit%E4%B8%BB%E9%A2%98/</link>
-    <pubDate>Thu, 18 Mar 2021 07:49:39 &#43;0800</pubDate><author>
-        <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/hugoloveit%E4%B8%BB%E9%A2%98/</guid>
-    <description><![CDATA[前言2021.3.18 第三代个人博客。之前折腾了Gridea，用了好几个主题，魔改移植了live2d/点击特效等一堆花里胡哨的。现在……Hu]]></description>
 </item></channel>
 </rss>

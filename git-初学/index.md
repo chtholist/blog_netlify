@@ -156,19 +156,19 @@ git在本地保存着完整的历史版本，可以脱机查看开发的历史�
 
 4. ***git push时提示git master branch has no upstream branch***
 
-​	直接原因：没有将本地的分支与远程仓库的分支进行关联
+   直接原因：没有将本地的分支与远程仓库的分支进行关联
 
-​	根本原因：git没法判断push的目标（repository和branch）
+   根本原因：git没法判断push的目标（repository和branch）
 
-​	方法：确定这两个值
+   方法：确定这两个值
 
-​	命令：`git push -u origin master` （替换这两个值）（若远程无分支，则创建）
+   命令：`git push -u origin master` （替换这两个值）（若远程无分支，则创建）
 
 5. ***git add时提示does not have a commit checked out***
 
-​	原因：在文件夹中多个.git
+   原因：在文件夹中多个.git
 
-​	方法：把多余的.git删了 
+   方法：把多余的.git删了 
 
 
 
