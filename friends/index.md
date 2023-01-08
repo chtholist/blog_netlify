@@ -1,12 +1,12 @@
 # 友链
 
 
+> Send your site to chtholist@gmail 
 
 
 
 
 
-
-{{< friend "Kata Fang" "https://katafang.github.io" "https://katafang.github.io/img/myavatar_hu8ac220b32c9ae86cabe70f453cece9e1_904986_300x0_resize_box_3.png" "looking at the stars" >}}
+{{< showcase title="Kata Fang"   summary="We are all in the gutter, but some of us are looking at the stars." image="https://katafang.github.io/img/myavatar_hu8ac220b32c9ae86cabe70f453cece9e1_904986_300x0_resize_box_3.png" link="https://katafang.github.io" >}}
 
 
