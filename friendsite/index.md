@@ -1,9 +1,7 @@
-# 友链
+# FriendSite
 
 
 > Send your site to chtholist@gmail 
-
-2333
 
 
 
