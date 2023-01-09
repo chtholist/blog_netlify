@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>笔记系统 - 标签 - Chtholly&#39;s Warehouse</title>
+        <link>https://chtholist.netlify.app/tags/%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F/</link>
+        <description>笔记系统 - 标签 - Chtholly&#39;s Warehouse</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (Chtholist)</managingEditor>
+            <webMaster>chtholist@gmail.com (Chtholist)</webMaster><lastBuildDate>Wed, 25 Aug 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/tags/%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F/" rel="self" type="application/rss+xml" /><item>
+    <title>【杂谈】折腾笔记系统</title>
+    <link>https://chtholist.netlify.app/posts/%E6%9D%82%E8%B0%88%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F/</link>
+    <pubDate>Wed, 25 Aug 2021 00:00:00 &#43;0000</pubDate><author>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/%E6%9D%82%E8%B0%88%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F/</guid>
+    <description><![CDATA[Onenote巨硬出品，必属精品，onenote功能非常好，但是bug太多了，想说爱你不容易（ 缺点： 同步有时很让人抓狂，看那个圈圈在那转啊转]]></description>
+</item></channel>
+</rss>

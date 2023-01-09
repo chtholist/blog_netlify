@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>编程 - 标签 - Chtholist&#39;s warehouse</title>
+        <title>编程 - 标签 - Chtholly&#39;s Warehouse</title>
         <link>https://chtholist.netlify.app/tags/%E7%BC%96%E7%A8%8B/</link>
-        <description>编程 - 标签 - Chtholist&#39;s warehouse</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (chtholist)</managingEditor>
-            <webMaster>chtholist@gmail.com (chtholist)</webMaster><lastBuildDate>Sat, 07 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/tags/%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+        <description>编程 - 标签 - Chtholly&#39;s Warehouse</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (Chtholist)</managingEditor>
+            <webMaster>chtholist@gmail.com (Chtholist)</webMaster><lastBuildDate>Sat, 07 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/tags/%E7%BC%96%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
     <title>Git 初学笔记</title>
-    <link>https://chtholist.netlify.app/git-%E5%88%9D%E5%AD%A6/</link>
+    <link>https://chtholist.netlify.app/posts/git-%E5%88%9D%E5%AD%A6/</link>
     <pubDate>Sat, 07 Jan 2023 00:00:00 &#43;0000</pubDate><author>
-        <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/git-%E5%88%9D%E5%AD%A6/</guid>
-    <description><![CDATA[Git最先进的分布式版本控制系统，底层是c语言 git在本地保存着完整的历史版本，可以脱机查看开发的历史版本 连接到GitHub 本地Git仓库和]]></description>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/git-%E5%88%9D%E5%AD%A6/</guid>
+    <description><![CDATA[Git最先进的分布式版本控制系统，底层是c语言 git在本地保存着完整的历史版本，可以脱机查看开发的历史版本 基本 连接到GitHub 本地Git仓]]></description>
 </item></channel>
 </rss>

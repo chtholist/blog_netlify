@@ -1,11 +1,9 @@
 # About
 
 
-
-
-> The fate of a blooming flower is only to shrivel and fall. 
->
-> Yet, the little buds dance in the wind, dreaming of the day they will bloom.
+> 关于无限可能性的梦想可能只有平行世界的我能够实现，然悟已往之不谏，知来者之可追。
+> The fate of a blooming flower is only to shrivel and fall.
+Yet, the little buds dance in the wind, dreaming of the day they will bloom.
 
 
 
@@ -13,6 +11,5 @@
 
 
 
-{{< showcase title="Kata Fang"   summary="We are all in the gutter, but some of us are looking at the stars." image="https://katafang.github.io/img/myavatar_hu8ac220b32c9ae86cabe70f453cece9e1_904986_300x0_resize_box_3.png" link="https://katafang.github.io" >}}
-
+{{< image src="https://s2.loli.net/2023/01/09/ZER5IVmMn3ps4ao.jpg">}}
 

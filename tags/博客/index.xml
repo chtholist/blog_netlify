@@ -1,29 +1,29 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>博客 - 标签 - Chtholist&#39;s warehouse</title>
+        <title>博客 - 标签 - Chtholly&#39;s Warehouse</title>
         <link>https://chtholist.netlify.app/tags/%E5%8D%9A%E5%AE%A2/</link>
-        <description>博客 - 标签 - Chtholist&#39;s warehouse</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (chtholist)</managingEditor>
-            <webMaster>chtholist@gmail.com (chtholist)</webMaster><lastBuildDate>Sun, 08 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/tags/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
+        <description>博客 - 标签 - Chtholly&#39;s Warehouse</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (Chtholist)</managingEditor>
+            <webMaster>chtholist@gmail.com (Chtholist)</webMaster><lastBuildDate>Sun, 08 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/tags/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
     <title> Hugo&amp;Netlify 搭建笔记</title>
-    <link>https://chtholist.netlify.app/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link>
+    <link>https://chtholist.netlify.app/posts/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Sun, 08 Jan 2023 00:00:00 &#43;0000</pubDate><author>
-        <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/hugo%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[Hugo教程1 命令❗在site主目录下跑命令行 hugo new site [NAME] —— 创建新的网站 hugo new posts/first_post.md —— 创建新文章 ⚠注意创建在哪个子目录下 hugo server 跑本地服务器，可以实时]]></description>
 </item><item>
     <title> 【Hugo】DoIt主题</title>
-    <link>https://chtholist.netlify.app/hugodoit%E4%B8%BB%E9%A2%98/</link>
+    <link>https://chtholist.netlify.app/posts/hugodoit%E4%B8%BB%E9%A2%98/</link>
     <pubDate>Sun, 08 Jan 2023 07:49:39 &#43;0800</pubDate><author>
-        <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/hugodoit%E4%B8%BB%E9%A2%98/</guid>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/hugodoit%E4%B8%BB%E9%A2%98/</guid>
     <description><![CDATA[前言2021.3.18 第三代个人博客。之前折腾了Gridea，用了好几个主题，魔改移植了live2d/点击特效等一堆花里胡哨的。现在……Hu]]></description>
 </item><item>
     <title>博客&amp;直播这档事</title>
-    <link>https://chtholist.netlify.app/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</link>
+    <link>https://chtholist.netlify.app/posts/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</link>
     <pubDate>Fri, 13 Aug 2021 00:00:00 &#43;0000</pubDate><author>
-        <name>chtholist</name>
-    </author><guid>https://chtholist.netlify.app/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</guid>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</guid>
     <description><![CDATA[well, it&rsquo;s quite a long and tough story. 不识天坑真面目，只因身在此坑中 2020.2，刚“加入”不洗碗工作室，学了异常方便的markdown后，就在万恶之源洛谷看到一]]></description>
 </item></channel>
 </rss>

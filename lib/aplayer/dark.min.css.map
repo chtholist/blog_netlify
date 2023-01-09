@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "dark.min.css",
-	"sourceRoot": "D:/Hugo-Blog/my_second_site",
+	"sourceRoot": "D:/Hugo-Blog/site_3",
 	"sources": [
 		"themes/DoIt/assets/lib/aplayer/dark.scss"
 	],
