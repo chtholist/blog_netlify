@@ -258,6 +258,21 @@ fi
 
 
 
+### 评论
+
+[别人的Valine搭建](https://ttzz.eu.org/posts/2022-08-22-opens-comment-system/)
+
+
+
+### SEO
+
+搜索引擎优化 (SEO) 可以指让您的网站更易于搜索
+
+- `chtholist.github.io`会被bing、google收录
+- `chtholist.gitee.io`会被所有搜索引擎收录
+
+
+
 ### 问题
 
 1. 文章顶部toc无法跳转
