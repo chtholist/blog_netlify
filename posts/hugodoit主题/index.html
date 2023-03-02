@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/chtholist.netlify.app\/posts\/hugodoit%E4%B8%BB%E9%A2%98\/"
-        },"genre": "posts","keywords": "博客","wordcount":  2422 ,
+        },"genre": "posts","keywords": "博客","wordcount":  2566 ,
         "url": "https:\/\/chtholist.netlify.app\/posts\/hugodoit%E4%B8%BB%E9%A2%98\/","datePublished": "2023-01-08T07:49:39+08:00","dateModified": "2023-01-09T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": "Chtholist"},"author": {
@@ -145,6 +145,7 @@
             <li><a href="#katex">Katex</a></li>
             <li><a href="#特殊字符sytle">特殊字符sytle</a></li>
             <li><a href="#字符注释">字符注释</a></li>
+            <li><a href="#latex">Latex</a></li>
             <li><a href="#转义字符">转义字符</a></li>
             <li><a href="#bug">Bug</a></li>
           </ul>
@@ -172,8 +173,8 @@
             <div class="post-meta-line">
                 <span class="post-author"><i class="author fas fa-user-circle fa-fw"></i><a href="https://chtholist.netlify.app" title="Author" target="_blank" rel="noopener noreferrer author" class="author">Chtholist</a>
                 </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-01-08">2023-01-08</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-01-09">2023-01-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2422 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 5 分钟&nbsp;<span id="/posts/hugodoit%E4%B8%BB%E9%A2%98/" class="leancloud_visitors" data-flag-title=" 【Hugo】DoIt主题">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-01-08">2023-01-08</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-01-09">2023-01-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 2566 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 6 分钟&nbsp;<span id="/posts/hugodoit%E4%B8%BB%E9%A2%98/" class="leancloud_visitors" data-flag-title=" 【Hugo】DoIt主题">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class="leancloud-visitors-count"></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -192,6 +193,7 @@
             <li><a href="#katex">Katex</a></li>
             <li><a href="#特殊字符sytle">特殊字符sytle</a></li>
             <li><a href="#字符注释">字符注释</a></li>
+            <li><a href="#latex">Latex</a></li>
             <li><a href="#转义字符">转义字符</a></li>
             <li><a href="#bug">Bug</a></li>
           </ul>
@@ -389,6 +391,38 @@ hiddenFromSearch: 若true，则不会显示在搜索结果</p>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>[Hugo]^(一个开源的静态网站生成工具)</p>
+<h4 id="latex" class="headerLink">
+    <a href="#latex" class="header-mark"></a>Latex</h4><p>由于 Hugo 在渲染 Markdown 文档时会根据 <code>_</code>/<code>*</code>/<code>&gt;&gt;</code> 之类的语法生成 HTML 文档, 并且有些转义字符形式的文本内容 (如 <code>\(</code>/<code>\)</code>/<code>\[</code>/<code>\]</code>/<code>\\</code>) 会自动进行转义处理, 因此需要对这些地方进行额外的转义字符表达来实现自动渲染:</p>
+<ul>
+<li>
+<p><code>_</code> -&gt; <code>\_</code></p>
+</li>
+<li>
+<p><code>*</code> -&gt; <code>\*</code></p>
+</li>
+<li>
+<p><code>&gt;&gt;</code> -&gt; <code>\&gt;&gt;</code></p>
+</li>
+<li>
+<p><code>\(</code> -&gt; <code>\\(</code></p>
+</li>
+<li>
+<p><code>\)</code> -&gt; <code>\\)</code></p>
+</li>
+<li>
+<p><code>\[</code> -&gt; <code>\\[</code></p>
+</li>
+<li>
+<p><code>\]</code> -&gt; <code>\\]</code></p>
+</li>
+<li>
+<p><code>\\</code> -&gt; <code>\\\\</code></p>
+</li>
+<li>
+<p>DoIt有shortcode<code>raw</code>以避免这些转义字符, 但是我没法用</p>
+</li>
+</ul>
+<p><a href="https://hugoloveit.com/zh-cn/theme-documentation-content/#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F" target="_blank" rel="noopener noreferrer">https://hugoloveit.com/zh-cn/theme-documentation-content/#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F</a></p>
 <h4 id="转义字符" class="headerLink">
     <a href="#%e8%bd%ac%e4%b9%89%e5%ad%97%e7%ac%a6" class="header-mark"></a>转义字符</h4><p>在某些特殊情况下文章内容会与 Markdown 的基本或者扩展语法冲突且无法避免.</p>
 <p>转义字符语法可以帮助你渲染出想要的内容:</p>
