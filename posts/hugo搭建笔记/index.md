@@ -1,4 +1,4 @@
-#  Hugo&Netlify 搭建笔记
+#  Hugo&Netlify 搭建记录
 
 
 

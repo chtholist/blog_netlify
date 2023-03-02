@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>折腾 - 系列 - Chtholly&#39;s Warehouse</title>
+        <link>https://chtholist.netlify.app/series/%E6%8A%98%E8%85%BE/</link>
+        <description>折腾 - 系列 - Chtholly&#39;s Warehouse</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>chtholist@gmail.com (Chtholist)</managingEditor>
+            <webMaster>chtholist@gmail.com (Chtholist)</webMaster><lastBuildDate>Fri, 17 Sep 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://chtholist.netlify.app/series/%E6%8A%98%E8%85%BE/" rel="self" type="application/rss+xml" /><item>
+    <title>【折腾】桌面</title>
+    <link>https://chtholist.netlify.app/posts/%E6%8A%98%E8%85%BE%E6%A1%8C%E9%9D%A2/</link>
+    <pubDate>Fri, 17 Sep 2021 00:00:00 &#43;0000</pubDate><author>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/%E6%8A%98%E8%85%BE%E6%A1%8C%E9%9D%A2/</guid>
+    <description><![CDATA[莫名其妙地有了实习工资，于是盯上了键盘，给自己拨了很高的预算，先是盯上花里胡哨的阿米洛，后又看上了宁芝的静电容，再又看上了腹灵……莫名其妙的]]></description>
+</item><item>
+    <title>【折腾】笔记系统</title>
+    <link>https://chtholist.netlify.app/posts/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F/</link>
+    <pubDate>Wed, 25 Aug 2021 00:00:00 &#43;0000</pubDate><author>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0%E7%B3%BB%E7%BB%9F/</guid>
+    <description><![CDATA[Onenote巨硬出品，必属精品，onenote功能非常好，但是bug太多了，想说爱你不容易（ 缺点： 同步有时很让人抓狂，看那个圈圈在那转啊转]]></description>
+</item><item>
+    <title>【折腾】博客&amp;直播</title>
+    <link>https://chtholist.netlify.app/posts/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</link>
+    <pubDate>Fri, 13 Aug 2021 00:00:00 &#43;0000</pubDate><author>
+        <name>Chtholist</name>
+    </author><guid>https://chtholist.netlify.app/posts/%E8%B0%88%E8%B0%88%E5%8D%9A%E5%AE%A2%E8%BF%99%E6%A1%A3%E4%BA%8B/</guid>
+    <description><![CDATA[well, it&rsquo;s quite a long and tough story. 不识天坑真面目，只因身在此坑中 2020.2，刚“加入”不洗碗工作室，学了异常方便的markdown后，就在万恶之源洛谷看到一]]></description>
+</item></channel>
+</rss>
